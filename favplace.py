@@ -2,6 +2,7 @@
 from BeautifulSoup import BeautifulSoup
 import urllib2
 
+# URL
 URL = "http://www.tecoplaza.com/newlink/tabijyoho/kion.htm"
 
 html = urllib2.urlopen(URL).read()
